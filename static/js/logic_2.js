@@ -54,11 +54,11 @@ function createFeatures(earthquakeData) {
 
     // Setting the marker for depth
     let depthMarker = L.rectangle([
-      [feature.geometry.coordinates[1] - 0.05, feature.geometry.coordinates[0] - 0.05],
-      [feature.geometry.coordinates[1] + 0.05, feature.geometry.coordinates[0] + 0.05]
+      [feature.geometry.coordinates[1] - 0.25, feature.geometry.coordinates[0] - 0.25],
+      [feature.geometry.coordinates[1] + 0.25, feature.geometry.coordinates[0] + 0.25]
     ], {
       stroke: false,
-      fillOpacity: 0.25,
+      fillOpacity: 0.50,
       color: markerColor(feature.geometry.coordinates[2]),
       fillColor: markerColor(feature.geometry.coordinates[2])
     });
