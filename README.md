@@ -17,7 +17,7 @@ This repository contains an interactive map that visualizes earthquake data and 
 ## Files
 
 - `index.html`: Main HTML file containing the structure of the map
-- `app.js`: JavaScript file containing the logic for fetching data, building the map, and adding layers
+- `logic_2.js`: JavaScript file containing the logic for fetching data, building the map, and adding layers
 
 ## Usage
 
